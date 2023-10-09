@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.app{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://imageio.forbes.com/blogs-images/ofx/files/2018/09/OFX3-iStock-492595743-1200x800.jpg?height=474&width=711&fit=bounds');
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  background-color: rgb(220, 237, 127);
+  width: 550px;
+  border-radius: 10px;
+  padding: 3rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.amount-card{
+  background-color: rgb(19, 4, 55);
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-text{
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.text-fields{
+  margin-top: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  margin-bottom: 30px;
+}
+.outlined-basic{
+  width: 550px;
+}
+.btn{
+  width: 275px;
+  height: 70px;
 }
